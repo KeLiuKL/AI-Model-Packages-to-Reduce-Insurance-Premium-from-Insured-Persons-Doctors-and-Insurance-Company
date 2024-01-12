@@ -2,13 +2,13 @@
 
 ## Introduction of Owner
 
-Owner of this GitHub project is Ke Liu, who graduated from NYU's Tandon School of Engineering with the GPA of 3.9, and received the degree of Master of Science in Financial Engineering. Ke Liu
+Owner of this GitHub project is Ke Liu, who graduated from NYU's Tandon School of Engineering, and received the degree of Master of Science in Financial Engineering. Ke Liu's working achivements are in both AI field and research field:
 
-- Accomplished several AI models which are built up to solve financial problems by processing numeric data, text data, image data, time series data etc. The financial problems includes how to price financial derivatives, how to perdict financial index, how to recognize non-numeric data to support financial decisions, and so on. Ke Liu even has an APP-Built-Up experience in UBS, the Union Bank of Switzerland, which utilized NLP methods to tag companies in real time to make reference for investors. All AI projects' details could be found in Ke Liu's LinkedIn profile, https://www.linkedin.com/in/ke-liu-459688218/.
+- Accomplished several AI models which are built up to solve financial problems by processing numeric data, text data, image data, time series data etc., with great test scores, like 97.25% acuuracy score, 96.97% recall score and so on. The financial problems includes how to price financial derivatives, how to perdict financial index, how to recognize non-numeric data to support financial decisions, and so on. Ke Liu even has an APP-Built-Up experience in UBS, the Union Bank of Switzerland, which utilized NLP methods to tag companies in real time to make reference for investors. All AI projects' details could be found in Ke Liu's LinkedIn profile, https://www.linkedin.com/in/ke-liu-459688218/.
 
-- Researched several national, provincial and industrial projects during her undergraduate school which are focused on investment facilitating, risk management, national development policies as well as regional development system, and published a paper in China. Here's her Google Scholar profile, https://scholar.google.com/citations?hl=en&user=8yJFZ4IAAAAJ. The research experience gave her comprehensive and deep perspective to study and solve problems too.
+- Researched more than 10 national, provincial and industrial projects during her undergraduate school which are focused on investment facilitating, risk management, national development policies as well as regional development system, and published a paper in China. Here's her Google Scholar profile, https://scholar.google.com/citations?hl=en&user=8yJFZ4IAAAAJ. The research topics includes most of important components of macroeconomics and microeconomics, and the researches are complimented in several conferences. 
 
-Now Ke Liu is working for an Insurance Company in New York, and aims to research the reason of increasing insurance premium cost and built AI models package to reduce the insurance premium cost, in order to contribute to the whole USA welfare.
+Now Ke Liu is working for an Insurance Company in New York, and aims to research the reason of increasing insurance premium cost and built AI models package to reduce the insurance premium cost, in order to increase the whole USA welfare.
 
 ## Background Information
 
@@ -24,10 +24,14 @@ Which shown the rapidly growing insurance expenditure. And it’s time to take a
 
 ## Goals
 
-In this project, Ke Liu has two goals:
+In this project, here are two goals: find the reasons of high insurance expenditure & build AI models to reduce insurance premium cost. By figuring out the reasons of high insurance expenditure, AI models could be used to summarize factors, monitor actions, simulate situations, facilitate process and so on.
 
-- Find the reasons of high insurance expenditure.
-- Build AI models to reduce insurance premium cost.
+The reasons of high insurance expenditure come from three aspects:
+
+- **Insured persons' part**
+  - ***Medical waste actions***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
+  - ***Impersonation actions***.
+  - ***Fraud actions***.
 
 ## Plans
 
