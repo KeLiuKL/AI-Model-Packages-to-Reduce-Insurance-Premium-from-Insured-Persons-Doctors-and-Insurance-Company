@@ -28,10 +28,18 @@ In this project, here are two goals: find the reasons of high insurance expendit
 
 The reasons of high insurance expenditure come from three aspects:
 
+- **Doctors' part**
+  - ***Substance abuse***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
+  - ***Labor costs related to insurance review***.
+
 - **Insured persons' part**
   - ***Medical waste actions***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
   - ***Impersonation actions***.
   - ***Fraud actions***.
+ 
+- **Insurance companies' part**
+  - ***Inaccurate premium pricing model***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
+
 
 ## Plans
 
