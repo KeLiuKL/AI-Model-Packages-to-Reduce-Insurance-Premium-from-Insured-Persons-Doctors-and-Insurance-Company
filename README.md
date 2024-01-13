@@ -1,4 +1,4 @@
-# AI-Model-Packages-to-Reduce-Insurance-Premium-cost-from-Insured-Persons-Doctors-and-Insurance-Company
+# AI Model Packages to Reduce Insurance Premium Cost from Insured Persons, Doctors, and Insurance Company
 
 ## Introduction of Owner
 
