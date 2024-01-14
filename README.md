@@ -53,11 +53,23 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
   
 - **Find Perfect AI Models to Train and Predict**
   - ***AI models to monitor edical waste actions***
+    - Data needed:
+    - AI models candidate:
   - ***AI models to monitor impersonation actions***
+    - Data needed:
+    - AI models candidate:
   - ***AI models to monitor fraud actions***
+    - Data needed:
+    - AI models candidate:
   - ***AI models to monitor substance abuse***
+    - Data needed:
+    - AI models candidate:
   - ***AI models to reduce labor costs related to insurance review***
+    - Data needed:
+    - AI models candidate:
   - ***AI models to build more accurate premium pricing model***
+    - Data needed:
+    - AI models candidate:
 ## Welcomes
 
 ## Framework of AI model package
