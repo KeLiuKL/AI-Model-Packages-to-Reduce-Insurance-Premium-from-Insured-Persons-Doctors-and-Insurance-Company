@@ -28,17 +28,17 @@ In this project, here are two goals: find the reasons of high insurance expendit
 
 The reasons of high insurance expenditure come from three aspects:
 
-- **Doctors' part**
-  - ***Substance abuse***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
-  - ***Labor costs related to insurance review***.
-
 - **Insured persons' part**
-  - ***Medical waste actions***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
-  - ***Impersonation actions***.
-  - ***Fraud actions***.
+  - ***Medical waste actions***. Given the insurance company will pay part or even most of bills, insured people will unavoidably intend to look for unnecessarily more expensive treatment or even just unnecessary treatment to take advantages of insurance company, which will increase the medical cost, and lead to an increase in insurance premium costs.
+  - ***Fraud actions***. A more serious situation is that some insured persons will fake medical records to defraud insurance companies. Because all insured people share the same insurance fund, no matter if they are honest or not, and the high usage of the fund will lead to high insurance premium cost, so the fraud actions have to be controled to make the insurance premium cost reasonable.
+  - ***Impersonation actions***. Not all people are insured, but all people will take medical cares to some extent. Thus, there are some people will take impersonation actions to lower their medical cost. This behavior takes up insurance funds that do not originally intend to be used on them, and increase the insurance premium the policyholders paid.
+
+- **Doctors' part**
+  - ***Substance abuse***. When cooperating with insurance company, patients' bills are paid by both patient and insurance company. Both of them are responsible for part of the bills, and the whole budget will be increased in a certain degree, so a few doctors will intend to do subtance abuse to increase their income. However, even if there's no insurance company's involvement, the substance abuse is inevitable sometimes. The substance abuse is one of the reasons makes the insurance premium cost high.
+  - ***Labor costs related to insurance review***. The insurance companies ask doctors to report a lot of forms to avoid any fraud or unnecessary medical abuse. This requirement is fundamentally good because it can avoid many unnecessary expenses from many aspects, but objectively it does increase the hospital's labor costs, which ask doctors to hire more people do the paperwork. The labor costs related to insurance review is one of the reasons makes the insurance premium cost high.
  
 - **Insurance companies' part**
-  - ***Inaccurate premium pricing model***. Given the insurance company will pay most of bills, some insured people will intend to look for unnecessary or unnecessarily more expensive treatment, which will increase the medical cost, and lead to an increase in insurance premium costs.
+  - ***Inaccurate premium pricing model***. Insurance companies have their own pricing models to decide the insurance premium cost. These models are designed to make sure there's profit for insurance company after paying all medical fees for their insured clients. In order to ensure that, there will be set as much gap space as possible between the premium collected from policyholders and the payment to doctors. More accurate pricing models will make the gap smaller, which makes the insurance premium cost lower furtherly.
 
 
 ## Plans
