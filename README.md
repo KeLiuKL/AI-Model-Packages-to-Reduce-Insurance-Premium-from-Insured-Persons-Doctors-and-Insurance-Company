@@ -43,6 +43,11 @@ The reasons of high insurance expenditure come from three aspects:
 
 ## Plans
 
+AI models are the process of learning. Feed comprehensive and advanced AI models with as much data as possible. After fine tuning, the AI models will show a great performance. Thus, the core of designing these AI models are collecting suitable and feasible data, and find the perfect AI models to train and predict based on different AI models' mathematical principles and functions.
+
+- **Collecting Suitable and Feasible Data**
+  
+- **Find Perfect AI Models to Train and Predict**
 ## Welcomes
 
 ## Framework of AI model package
