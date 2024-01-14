@@ -46,8 +46,18 @@ The reasons of high insurance expenditure come from three aspects:
 AI models are the process of learning. Feed comprehensive and advanced AI models with as much data as possible. After fine tuning, the AI models will show a great performance. Thus, the core of designing these AI models are collecting suitable and feasible data, and find the perfect AI models to train and predict based on different AI models' mathematical principles and functions.
 
 - **Collecting Suitable and Feasible Data**
+  - ***Data Type***
+    Because the AI models package intend to solve multiple problems from insured people, doctors and insurance companies' aspects, which includes 6 directions, so the data type includes numeric data like insured people's income, age, medical test report, etc., image data like photo of insured people, iamge medical reports, etc., and the text data like reports doctors write, prescriptions doctors made, etc.
+  - ***Data Source***
+    All these data could be provided from insurance company who has the detailed insured people's information when they sign the contract and the historical records of all kinds of dishonest people and actions, and doctors or medical experts who has the medical experience to tag medical fraud actions to help AI models learn and predict.
   
 - **Find Perfect AI Models to Train and Predict**
+  - ***AI models to monitor edical waste actions***
+  - ***AI models to monitor impersonation actions***
+  - ***AI models to monitor fraud actions***
+  - ***AI models to monitor substance abuse***
+  - ***AI models to reduce labor costs related to insurance review***
+  - ***AI models to build more accurate premium pricing model***
 ## Welcomes
 
 ## Framework of AI model package
