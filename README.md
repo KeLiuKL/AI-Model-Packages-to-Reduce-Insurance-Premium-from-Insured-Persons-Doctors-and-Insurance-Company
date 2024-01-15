@@ -35,41 +35,47 @@ The reasons of high insurance expenditure come from three aspects:
 
 - **Doctors' part**
   - ***Substance abuse***. When cooperating with insurance company, patients' bills are paid by both patient and insurance company. Both of them are responsible for part of the bills, and the whole budget will be increased in a certain degree, so a few doctors will intend to do subtance abuse to increase their income. However, even if there's no insurance company's involvement, the substance abuse is inevitable sometimes. The substance abuse is one of the reasons makes the insurance premium cost high.
-  - ***Labor costs related to insurance review***. The insurance companies ask doctors to report a lot of forms to avoid any fraud or unnecessary medical abuse. This requirement is fundamentally good because it can avoid many unnecessary expenses from many aspects, but objectively it does increase the hospital's labor costs, which ask doctors to hire more people do the paperwork. The labor costs related to insurance review is one of the reasons makes the insurance premium cost high.
  
 - **Insurance companies' part**
   - ***Inaccurate premium pricing model***. Insurance companies have their own pricing models to decide the insurance premium cost. These models are designed to make sure there's profit for insurance company after paying all medical fees for their insured clients. In order to ensure that, there will be set as much gap space as possible between the premium collected from policyholders and the payment to doctors. More accurate pricing models will make the gap smaller, which makes the insurance premium cost lower furtherly.
 
 
-## Plans
+## Plans & Framework of AI model package
 
 AI models are the process of learning. Feed comprehensive and advanced AI models with as much data as possible. After fine tuning, the AI models will show a great performance. Thus, the core of designing these AI models are collecting suitable and feasible data, and find the perfect AI models to train and predict based on different AI models' mathematical principles and functions.
 
 - **Collecting Suitable and Feasible Data**
   - ***Data Type***
-    Because the AI models package intend to solve multiple problems from insured people, doctors and insurance companies' aspects, which includes 6 directions, so the data type includes numeric data like insured people's income, age, medical test report, etc., image data like photo of insured people, iamge medical reports, etc., and the text data like reports doctors write, prescriptions doctors made, etc.
+    Because the AI models package intend to solve multiple problems from insured people, doctors and insurance companies' aspects, which includes 5 directions, so the data type includes numeric data like insured people's income, age, medical test report, etc., image data like photo of insured people, iamge medical reports, etc., and the text data like reports doctors write, prescriptions doctors made, etc.
   - ***Data Source***
     All these data could be provided from insurance company who has the detailed insured people's information when they sign the contract and the historical records of all kinds of dishonest people and actions, and doctors or medical experts who has the medical experience to tag medical fraud actions to help AI models learn and predict.
   
 - **Find Perfect AI Models to Train and Predict**
-  - ***AI models to monitor edical waste actions***
-    - Data needed:
-    - AI models candidate:
-  - ***AI models to monitor impersonation actions***
-    - Data needed:
-    - AI models candidate:
-  - ***AI models to monitor fraud actions***
-    - Data needed:
-    - AI models candidate:
-  - ***AI models to monitor substance abuse***
-    - Data needed:
-    - AI models candidate:
-  - ***AI models to reduce labor costs related to insurance review***
-    - Data needed:
-    - AI models candidate:
-  - ***AI models to build more accurate premium pricing model***
-    - Data needed:
-    - AI models candidate:
+  - ***A. AI models to monitor medical waste actions***
+    - **a. Data needed**: Insured people's basic numeric information collected when signing insurance contract like age, income, insured people size, medical test scores, credit scores, etc.
+    - **b. AI models candidate**:Principal component analysis(PCA), KMeans, Support Vector Classifier (SVC), K-Nearest Neighbors(KNN), Naive Bayes
+    - **c. Input**: Insured people's basic numeric information collected when signing insurance contract
+    - **d. Output**: 0~1, the probability of taking medical waste action
+  - ***B. AI models to monitor fraud actions***
+    - **a. Data needed**: Doctors' or experts' tagged honest and fraud medical records' database.
+    - **b. AI models candidate**: Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
+    - **c. Input**: Insured people's historical medical records and new medical records
+    - **d. Output**: 0~1, the probability of defrauding
+  - ***C. AI models to monitor impersonation actions***
+    - **a. Data needed**: Insured people's bio information such as photo or fingerprint, and database that includes large amount comparable bio photos marked 0 and 1.
+    - **b. AI models candidate**:Principal component analysis(PCA), Convolutional Neural Network(CNN)
+    - **c. Input**: Real-time face recognition video taken when entering insurance information
+    - **d. Output**: 0 or 1, stands for it's the exact insured person or not 
+  - ***D. AI models to monitor substance abuse***
+    - **a. Data needed**: Doctors' or experts' tagged abuse or not medical records' database.
+    - **b. AI models candidate**:Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
+    - **c. Input**: Doctors' medical records on one certain insured person
+    - **d. Output**: 0~1, the probability of substance abusing
+  - ***E. AI models to build more accurate premium pricing model***
+    - **a. Data needed**:
+    - **b. AI models candidate**:
+    - **c. Input**:
+    - **d. Output**:
+      
 ## Welcomes
 
-## Framework of AI model package
