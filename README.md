@@ -52,30 +52,59 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
   
 - **Find Perfect AI Models to Train and Predict**
   - ***A. AI models to monitor medical waste actions***
-    - **a. Data needed**: Insured people's basic numeric information collected when signing insurance contract like age, income, insured people size, medical test scores, credit scores, etc.
-    - **b. AI models candidate**:Principal component analysis(PCA), KMeans, Support Vector Classifier (SVC), K-Nearest Neighbors(KNN), Naive Bayes
-    - **c. Input**: Insured people's basic numeric information collected when signing insurance contract
-    - **d. Output**: 0~1, the probability of taking medical waste action
+    - **a. Data needed**: \
+      Insured people's basic numeric information collected when signing insurance contract like age(0~150,Integer), income(Numeric, Unit:k), insured people size(Integer), medical test scores(Numeric), credit scores(Numeric), etc.
+    - **b. AI algorithm candidates**:\
+      Principal component analysis(PCA), KMeans, Support Vector Classifier (SVC), K-Nearest Neighbors(KNN), Naive Bayes
+    - **c. Input**: \
+      Insured people's basic numeric information collected when signing insurance contract (Numeric)
+    - **d. Output**:\
+      0~1, the probability of taking medical waste action
+   
+      
   - ***B. AI models to monitor fraud actions***
-    - **a. Data needed**: Doctors' or experts' tagged honest and fraud medical records' database.
-    - **b. AI models candidate**: Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
-    - **c. Input**: Insured people's historical medical records and new medical records
-    - **d. Output**: 0~1, the probability of defrauding
+    - **a. Data needed**:\
+      Doctors' or experts' tagged honest and fraud medical records' database (data series with tag 0 or 1)
+    - **b. AI algorithm candidates**:\
+      Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
+    - **c. Input**:\
+      Insured people's historical medical records and new medical records (Images, text, and numbers data series without tag)
+    - **d. Output**:\
+      0~1, the probability of defrauding\
+
+      
   - ***C. AI models to monitor impersonation actions***
-    - **a. Data needed**: Insured people's bio information such as photo or fingerprint, and database that includes large amount comparable bio photos marked 0 and 1.
-    - **b. AI models candidate**:Principal component analysis(PCA), Convolutional Neural Network(CNN)
-    - **c. Input**: Real-time face recognition video taken when entering insurance information
-    - **d. Output**: 0 or 1, stands for it's the exact insured person or not 
+    - **a. Data needed**:\
+    Insured people's bio information such as photo or fingerprint(Image), and database that includes large amount comparable bio photos marked 0 and 1 (Image data with tag 0 or 1).
+    - **b. AI algorithm candidates**:\
+      Principal component analysis(PCA), Convolutional Neural Network(CNN)
+    - **c. Input**:\
+      Real-time face recognition video taken when entering insurance information (Image)
+    - **d. Output**:\
+      0 or 1, stands for it's the exact insured person or not
+
   - ***D. AI models to monitor substance abuse***
-    - **a. Data needed**: Doctors' or experts' tagged abuse or not medical records' database.
-    - **b. AI models candidate**:Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
-    - **c. Input**: Doctors' medical records on one certain insured person
-    - **d. Output**: 0~1, the probability of substance abusing
+    - **a. Data needed**: \
+      Doctors' or experts' tagged abuse or not medical records' database (text data series with tag 0 or 1).
+    - **b. AI algorithm candidates**:\
+      Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
+    - **c. Input**:\
+      Doctors' medical records on one certain insured person (text data series without tag)
+    - **d. Output**:\
+      0~1, the probability of substance abusing
+
   - ***E. AI models to build more accurate premium pricing model***
-    - **a. Data needed**:
-    - **b. AI models candidate**:
-    - **c. Input**:
-    - **d. Output**:
+    - **a. Data needed**:\
+      History database of insured people's basic information(Yearly, Numeric), all scores above AI models generated(Numeric), usage of insurance fund(Yearly, Numeric), and economic data like inflation rate etc. (Numeric).
+    - **b. AI algorithm candidates**:\
+      Principal component analysis(PCA), K-Nearest Neighbors(KNN), Support Vector Regression (SVR), RidgeRegression
+    - **c. Input**:\
+      Insured people's basic information (Numeric), scores generated from above AI models (Numeric), and economic data (Numeric)
+    - **d. Output**:\
+      Expectaion of the cost of certain type insured people (Yearly, Numeric)
+
       
 ## Welcomes
+
+Welcome every data providers and AI experts to contribute to the AI models package together. Please feel free to email me to get access to all codes: kl4246@nyu.edu. Once the models are built up maturely, packages will apply for USA patent and be provided to all insurance companies to create more welfare to USA citizens.
 
