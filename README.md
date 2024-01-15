@@ -102,7 +102,6 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
       Insured people's basic information (Numeric), scores generated from above AI models (Numeric), and economic data (Numeric)
     - **d. Output**:\
       Expectaion of the cost of certain type insured people (Yearly, Numeric)
-
       
 ## Welcomes
 
