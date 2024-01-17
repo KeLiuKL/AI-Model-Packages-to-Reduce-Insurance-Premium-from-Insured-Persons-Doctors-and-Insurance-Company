@@ -75,7 +75,7 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
       
   - ***C. AI models to monitor impersonation actions***
     - **a. Data needed**:\
-    Insured people's bio information such as photo or fingerprint(Image), and database that includes large amount comparable bio photos marked 0 and 1 (Image data with tag 0 or 1).
+    Insured people's bio information such as photo or fingerprint(Image), and database that includes large amount comparable bio photos.
     - **b. AI algorithm candidates**:\
       Principal component analysis(PCA), Convolutional Neural Network(CNN)
     - **c. Input**:\
