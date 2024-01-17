@@ -70,7 +70,7 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
     - **c. Input**:\
       Insured people's historical medical records and new medical records (Images, text, and numbers data series without tag)
     - **d. Output**:\
-      0~1, the probability of defrauding\
+      0~1, the probability of defrauding
 
       
   - ***C. AI models to monitor impersonation actions***
