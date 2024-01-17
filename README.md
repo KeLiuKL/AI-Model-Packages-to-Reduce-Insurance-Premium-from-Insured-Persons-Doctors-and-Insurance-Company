@@ -87,7 +87,7 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
     - **a. Data needed**: \
       Doctors' or experts' tagged abuse or not medical records' database (text data series with tag 0 or 1).
     - **b. AI algorithm candidates**:\
-      Bidirectional Encoder Representations from Transformers (BERT), Convolutional Neural Network(CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
+      Bidirectional Encoder Representations from Transformers (BERT), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM)
     - **c. Input**:\
       Doctors' medical records on one certain insured person (text data series without tag)
     - **d. Output**:\
