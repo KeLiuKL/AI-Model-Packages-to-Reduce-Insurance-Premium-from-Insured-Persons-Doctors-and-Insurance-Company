@@ -97,7 +97,7 @@ AI models are the process of learning. Feed comprehensive and advanced AI models
     - **a. Data needed**:\
       History database of insured people's basic information(Yearly, Numeric), all scores above AI models generated(Numeric), usage of insurance fund(Yearly, Numeric), and economic data like inflation rate etc. (Numeric).
     - **b. AI algorithm candidates**:\
-      Principal component analysis(PCA), K-Nearest Neighbors(KNN), Support Vector Regression (SVR), RidgeRegression
+      Principal component analysis(PCA), KMeans, Support Vector Regression (SVR), RidgeRegression
     - **c. Input**:\
       Insured people's basic information (Numeric), scores generated from above AI models (Numeric), and economic data (Numeric)
     - **d. Output**:\
